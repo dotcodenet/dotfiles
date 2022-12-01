@@ -1,0 +1,115 @@
+{
+	"window.openFilesInNewWindow": "off",
+
+	//Main editor settings
+	"editor.tabSize": 2,
+	"editor.wordWrap": "on",
+	"editor.folding": false,
+	"editor.insertSpaces": false,
+	"editor.smoothScrolling": true,
+	"editor.minimap.enabled": false,
+	"editor.detectIndentation": true,
+	//Определяет, будет ли редактор прокручиваться за пределы последней строки.
+	"editor.scrollBeyondLastLine": false,
+	"editor.multiCursorModifier": "ctrlCmd",
+	//Определяет, должен ли редактор отображать управляющие символы.
+	"editor.renderControlCharacters": false,
+	//Управляет выделением символов, которые можно спутать с основными символами ASCII, кроме тех, которые являются общими для текущего пользовательского языкового стандарта.
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+
+	//Appearance
+	"editor.cursorBlinking": "expand",
+	"editor.bracketPairColorization.enabled": false,
+	"editor.glyphMargin": false,
+
+	//Font
+	"editor.fontSize": 18,
+	"editor.fontLigatures": true,
+	"editor.fontFamily": "JetBrains Mono, monospace",
+
+	//Explorer
+	"explorer.confirmDelete": false,
+	"explorer.compactFolders": false,
+	"explorer.confirmDragAndDrop": false,
+
+	//Workbench
+	//Разрешить уменьшение размера вкладок, когда доступного места недостаточно для отображения всех вкладок одновременно.
+	"workbench.editor.tabSizing": "shrink",
+	"workbench.iconTheme": "material-icon-theme",
+
+	//Debug
+	"debug.toolBarLocation": "hidden",
+	"debug.focusWindowOnBreak": false,
+	"debug.showInlineBreakpointCandidates": false,
+	"debug.showBreakpointsInOverviewRuler": false,
+
+	//Format
+	"prettier.semi": false,
+	"prettier.useTabs": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"prettier.singleQuote": true,
+	"prettier.jsxSingleQuote": true,
+	//Включите круглые скобки вокруг единственного параметра функции стрелки
+	"prettier.arrowParens": "avoid",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[markdown]": {
+		"editor.defaultFormatter": "yzhang.markdown-all-in-one"
+	},
+
+	//Breadcrumbs
+	"breadcrumbs.icons": false,
+	"breadcrumbs.showKeys": false,
+	"breadcrumbs.showFiles": false,
+	"breadcrumbs.symbolPath": "off",
+	"breadcrumbs.showArrays": false,
+	"breadcrumbs.showEvents": false,
+	"breadcrumbs.showFields": false,
+	"breadcrumbs.showClasses": false,
+	"breadcrumbs.showMethods": false,
+	"breadcrumbs.showBooleans": false,
+	"breadcrumbs.showFunctions": false,
+	"breadcrumbs.showConstants": false,
+	"breadcrumbs.showEnumMembers": false,
+	"breadcrumbs.showConstructors": false,
+
+	//JS & TS
+	"javascript.suggestionActions.enabled": false,
+	"typescript.suggestionActions.enabled": false,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"window.menuBarVisibility": "toggle",
+	"window.commandCenter": false,
+	"workbench.layoutControl.enabled": false,
+	"security.workspace.trust.untrustedFiles": "open",
+	"workbench.colorTheme": "One Dark Pro",
+	"liveServer.settings.donotShowInfoMsg": true,
+	"workbench.activityBar.visible": false
+}
