@@ -7,11 +7,11 @@ $PROMPT_CONFIG = Join-Path (Get-ScriptDirectory) 'dotcode.omp.json'
 oh-my-posh --init --shell pwsh --config $PROMPT_CONFIG | Invoke-Expression
 
 # PSReadLine options
-Set-PSReadlineOption -EditMode Emacs
-Set-PSReadLineOption -BellStyle None
-Set-PSReadLineKeyHandler -Chord 'Ctrl+d' -Function DeleteChar
-Set-PSReadLineOption -PredictionSource History
-Set-PSReadLineOption -PredictionViewStyle ListView
+# Set-PSReadlineOption -EditMode Emacs
+# Set-PSReadLineOption -BellStyle None
+# Set-PSReadLineKeyHandler -Chord 'Ctrl+d' -Function DeleteChar
+# Set-PSReadLineOption -PredictionSource History
+# Set-PSReadLineOption -PredictionViewStyle ListView
 
 # Utilities
 function which ($command) {
