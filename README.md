@@ -17,3 +17,13 @@
 - run command `scoop install neovim oh-my-posh`
 - run command `Install-Module -Name Terminal-Icons -Force`
 - and change settings file
+
+## Terminal windows 10
+
+- install fonts - JetBrains Mono, Fira Code
+- install - windows terminal
+- install - powershell
+- install - scoop
+- run command - `scoop install neovim oh-my-posh`
+- run command - `Install-Module -Name Terminal-Icons -Force`
+- and change settings file
