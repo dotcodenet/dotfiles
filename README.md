@@ -11,7 +11,7 @@
 
 ## Terminal windows 11
 
-- install fonts - "JetBrains Mono, Fira Code"
+- install fonts - JetBrains Mono, Fira Code
 - install powershell
 - install scoop
 - run command `scoop install neovim oh-my-posh`
