@@ -1,4 +1,4 @@
-# Dotfiles windows 10 /11
+# Dotfiles windows 10 /11 version 0.2
 
 ## VSCode extension Windows 10/11
 
